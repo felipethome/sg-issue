@@ -1,0 +1,15 @@
+{
+  "name": "simple-cljs",
+  "version": "1.0.0",
+  "description": "FIXME: Write a one-line description of your library/project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "shadow-cljs": "^2.8.94"
+  }
+}

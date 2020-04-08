@@ -1,0 +1,10 @@
+{:lein   {:profile "+cljs"}
+ :nrepl  {:port 9001}
+ :builds {:app {:target     :browser
+                :output-dir "resources/public/js/app"
+                :asset-path "/js/app"
+                :devtools   {:http-root          "resources/public"
+                             :http-port          8080
+                             :http-resource-root "."
+                             :loader-mode        :eval}
+                :modules    {:main {:entries [simple-cljs.core]}}}}}
